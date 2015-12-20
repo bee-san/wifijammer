@@ -1,10 +1,11 @@
-wifijammer
+wifijammer 2.0
 ==========
 
 Continuously jam all wifi clients and access points within range. The effectiveness of this script is constrained by your wireless card. Alfa cards seem to effectively jam within about a block radius with heavy access point saturation. Granularity is given in the options for more effective targeting. 
 
+Note: This is a forked version. This version uses Python3 and obides by Pep8, most of the original code / theory is still here.
 
-Requires: python 2.7, python-scapy, a wireless card capable of injection
+Requires: python 3, python-scapy, a wireless card capable of injection
 
 
 Usage
@@ -61,6 +62,7 @@ python wifijammer.py [-a AP MAC] [-c CHANNEL] [-d] [-i INTERFACE] [-m MAXIMUM] [
 Technical breakdown
 -------
 [How to kick everyone around you off wifi with python](http://danmcinerney.org/how-to-kick-everyone-around-you-off-wifi-with-python/)
+(Note, this link is now out of date as of 20/12/2015 for this version)
 
 
 License
@@ -88,5 +90,6 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ***
 * [danmcinerney.org](http://danmcinerney.org)
+* [Brandon Skerritt](http://www.github.com/brandonskerritt51)
 * [![Flattr this](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=DanMcInerney&url=https://github.com/DanMcInerney/wifijammer&title=wifijammer&language=&tags=github&category=software) 
 * [![Analytics](https://ga-beacon.appspot.com/UA-46613304-3/wifijammer/README.md)](https://github.com/igrigorik/ga-beacon)
